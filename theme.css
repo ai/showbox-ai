@@ -1,0 +1,78 @@
+/* Change default color */
+
+a {
+    color: #0080e0;
+}
+
+.slide mark {
+    color: #0080e0;
+    background: transparent;
+}
+
+.slide mark.important {
+    background: #0080e0;
+    color: white;
+}
+
+.slide mark.important mark {
+    color: white;
+}
+
+.slide pre mark.important {
+    background: #0080e0;
+}
+
+.slide pre mark.comment {
+    color: #888;
+}
+
+@media screen {
+    .list .slide:target:before {
+        box-shadow: 0 0 10px 0 #3c99db, 0 0 0 12px #0080e0;
+    }
+    .full .progress div {
+        background: #0080e0;
+    }
+}
+
+/* Change mark paddings */
+
+.slide mark.important {
+    padding: 3px 7px 0;
+}
+
+.slide pre mark {
+    padding: 0;
+}
+
+/* Change overview title */
+
+.caption {
+    color: black
+}
+
+/* Move slide index to right */
+
+.slide::after {
+    text-align: right;
+    right: 50px;
+}
+
+.list .slide:after {
+    padding-top: 35px;
+    right: 0;
+    text-align: center;
+}
+
+/* Add more space to slide */
+
+.slide > div {
+    padding-top: 80px;
+    height: 560px;
+}
+
+/* Remove line numbers on code examples */
+
+.slide pre code:before {
+  display: none
+}
