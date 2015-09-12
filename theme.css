@@ -76,3 +76,9 @@ a {
 .slide pre code:before {
   display: none
 }
+
+/* Hide progress on covers */
+
+.slide.cover {
+    z-index: 2;
+}
