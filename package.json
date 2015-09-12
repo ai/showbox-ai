@@ -1,0 +1,21 @@
+{
+  "name": "showbox-ai",
+  "version": "0.0.0",
+  "description": "Sitnik’s theme for ShowBox",
+  "keywords": [
+    "showbox-theme",
+    "shower"
+  ],
+  "author": "Andrey Sitnik <andrey@sitnik.ru>",
+  "license": "MIT",
+  "repository": "ai/showbox-ai",
+  "dependencies": {
+    "showbox-bright": "ai/showbox-bright"
+  },
+  "devDependencies": {
+    "eslint": "1.4.1"
+  },
+  "scripts": {
+    "test": "eslint *.js"
+  }
+}
