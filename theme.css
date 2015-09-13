@@ -86,3 +86,15 @@ a {
 .slide.cover {
     z-index: 2;
 }
+
+/* Cover subheaders */
+
+.slide h2 em {
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    padding-bottom: 6px;
+}
