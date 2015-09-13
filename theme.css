@@ -35,6 +35,10 @@ a {
     }
 }
 
+.hljs-string, .hljs-keyword, .hljs-attribute {
+    color: #0080e0;
+}
+
 /* Change mark paddings */
 
 .slide mark.important {
