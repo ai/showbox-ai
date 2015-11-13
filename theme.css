@@ -39,6 +39,15 @@ a {
     color: #0080e0;
 }
 
+.slide.shout {
+    background: #0080e0;
+    h2 {
+        font-family: Open Sans;
+        font-size: 120px;
+        line-height: 1.2;
+    }
+}
+
 /* Change mark paddings */
 
 .slide mark.important {
